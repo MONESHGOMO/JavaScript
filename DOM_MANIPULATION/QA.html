@@ -1,0 +1,27 @@
+<input id ="one" >
+<input id="two" >
+<button onclick="output()">Add</button>
+<p id="result">result</p>
+
+<script>
+    var num1=document.getElementById("one");
+    var num2=document.getElementById("two");
+    // select result
+
+    var result = document.getElementById("result")
+    console.log(num1.value)
+    console.log(num2.value)
+
+    
+    
+    function output(){
+        var box1Value = Number(num1.value);
+        var box2Value = Number(num2.value); // explicit type casting
+        var total = box1Value + box2Value
+        result.textContent=total
+
+    }
+
+</script>
+
+<!-- Resource : https://www.youtube.com/watch?v=poo0BXryffI&t=7206s -->
