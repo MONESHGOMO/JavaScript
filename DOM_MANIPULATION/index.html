@@ -1,0 +1,51 @@
+<!-- 
+  // demo code 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOM Manipulation</title>
+</head>
+<body>
+  
+    <h1 id="two">hello</h1>
+
+    <p id="one"> paragraph tag </p>
+
+    <script>
+        // select paragra[h tag using id
+        var para = document.getElementById("one");
+        console.log(para.textContent);
+        para.textContent="Bye";
+    </script>
+</body>
+</html> -->
+
+<!-- 
+
+Q1
+
+<h1 id="title">
+ Hello World
+</h1>
+
+<script>
+    var changeData = document.getElementById("title");
+    console.log(changeData.textContent);
+    changeData.textContent = "Bye World";
+</script> -->
+
+<h1 id="one">HELLO WORLD</h1>
+<button onmouseover="change()">click</button>
+
+<script>
+
+    var changeData = document.getElementById("one");
+
+
+    console.log(changeData.textContent);
+
+    function change() {
+        changeData.textContent = "BYE WORLD";
+    }
+</script>
