@@ -1,0 +1,65 @@
+<!-- <input id="input"  onkeyup="showData()">
+<button >Btn</button>
+<H1 id="ans"></H1>
+
+<script>
+ 
+
+  // select input and h1 tag \
+
+  var inputBox = document.getElementById("input");
+  var result = document.getElementById("ans");
+
+
+  function showData(){
+    
+    result.textContent=inputBox.value; // for <innput> we need to use value .
+  }
+</script> -->
+
+
+
+<!-- Add hello Gomo  -->
+
+<!-- 
+<button id="btn" onclick="showData()">Hello</button>
+
+<div id="data"></div>
+
+<script>
+    var div= document.getElementById("data");
+    function showData(){
+        // h1.textContent = "Hello Gomo";
+        // h1.append("Hello Gomo");
+        // create new element 
+        var h1=document.createElement("h1")
+        h1.textContent="Hello Gomo";
+        div.append(h1);
+    }
+</script>
+ -->
+
+
+ <!--  Change color -->
+<!-- 
+ <button id="btn" onclick="changeColor()">Change</button>
+
+<script>
+    var btn = document.getElementById("btn");
+    function changeColor(){
+        btn.style.backgroundColor="red";
+    }
+</script>
+ -->
+
+ <h1 id="result">Name: </h1>
+ <button onclick="name(event)">John</button>
+ <button>praveen</button>
+ <button>David</button>
+
+ <script>
+    var h1=document.getElementById("result")
+    function name (event){
+      h1.textContent="john"
+    }
+ </script>
