@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer {
+            height: 450px;
+            width: 650px;
+            background-color: white;
+            margin-left: 30%;
+            margin-top: 6%;
+
+        }
+
+        .inner {
+            height: auto;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .inner label {
+            font-family: cursive;
+        }
+
+        .inner input {
+            display: block;
+            border-radius: 5px;
+            padding: 10px;
+            border-width: 1px;
+            width: 90%;
+        }
+
+        input:hover {
+            border-color: blueviolet;
+            border-width: 3px;
+
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        button:hover {
+            background-color: rgb(83, 128, 17);
+        }
+
+        .check{
+            position: relative;
+            bottom: 20px;
+            right:190px;
+        }
+    </style>
+</head>
+
+<body style="background-color: white;">
+
+    <h2 style="text-align: center; padding-top: 20px; color: rgb(13, 13, 128);">Login</h2>
+    <div class="outer">
+        <div class="inner">
+            <label>Name</label><br>
+            <input type="text" placeholder="name"><br>
+            <label>Email</label><br>
+            <input type="email" placeholder="email"><br>
+            <label>Phone</label><br>
+            <input type="tel" placeholder="phone"><br>
+            <label>Password</label><br>
+            <input type="password" placeholder="password"><br>
+            <h3 style="display:inline;">Check out</h3>
+            <input class="check" type="checkbox">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button><br>
+        </div>
+    </div>
+</body>
+
+</html>
